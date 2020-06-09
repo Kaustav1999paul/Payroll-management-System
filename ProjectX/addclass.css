@@ -1,0 +1,321 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    background-color: #ff8873;
+}
+ 
+.logo{
+    height: 70px;
+    width: 100px;
+    top: 1.5%;
+    left: 1%;
+    position: absolute;
+}
+ 
+   
+.heading{
+    position: absolute;
+    font-size: 80px;
+    left: 2%;
+    top: 15%; 
+    color: #525252; 
+  font-weight: bold;
+} 
+
+.table{
+    position: absolute;
+    top: 45%; 
+    background-color: rgba(0, 0, 0, 0.69);
+    color: aliceblue;
+    border: none;
+}
+
+.image1{  
+    position: absolute;
+    height: 59%;
+    width: 63%;
+    left: -10%;
+    top: 34%;
+     
+} 
+  
+.form input[type="number"]{
+    
+    
+    background: transparent;
+    outline: none;
+    height: 30px;
+    color: #6d6d6d;
+    font-size: 16px;
+    width: 120px;
+}
+ 
+.form{
+    position: absolute;
+    height: 60%;
+    width: 51%; 
+    background-color: rgba(255, 255, 255, 0.54);
+    left: 48%;
+    top: 20%;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 0px;
+    
+}
+
+
+
+
+ 
+ 
+ 
+.name{
+    position: absolute;
+    left: 5%;
+    width: 15%;
+    top: 7%;
+    background: transparent;
+    border-radius: 0px;
+    height: 8%;
+    font-size: 18px;
+     font-weight: bold;
+    outline-color: black;
+} 
+
+.bp1{
+    position: absolute;
+    font-size: 18px;
+    font-weight: bold;
+    left: 28%;
+    top: 7%;
+}
+
+.bpay{
+    position: absolute;
+    left: 42%;
+    top: 6%; 
+}
+
+.da1{
+    position: absolute; 
+    font-size: 18px;
+     font-weight: bold;
+    left: 69%;
+    top: 6%;
+}
+
+.da{
+    position: absolute;
+    left: 77%;
+    top: 6%; 
+}
+
+
+
+
+
+
+
+.hra1{
+    position: absolute; 
+    font-size: 18px;
+     font-weight: bold;
+    left: 5%;
+    top: 25%;
+}
+
+.hra{
+    position: absolute;
+    left: 15%;
+    top: 25%; 
+}
+
+.ta1{
+    position: absolute;
+    font-size: 18px;
+     font-weight: bold;
+    left: 36%;
+    top: 25%;
+}
+ 
+.ta{
+    position: absolute;
+    left: 42%;
+    top: 25%; 
+}
+.wa1{
+    position: absolute;
+    font-size: 18px;
+     font-weight: bold;
+    left: 69%;
+    top: 25%;
+}
+
+.wa{
+    position: absolute;
+    left: 77%;
+    top: 25%; 
+}
+
+
+
+
+
+
+.ma1{
+    position: absolute; 
+    font-size: 18px;
+     font-weight: bold;
+    left: 12%;
+    top: 45%;
+}
+
+.ma{
+    position: absolute;
+    left: 42%;
+    top: 45%; 
+}
+
+.gra1{
+    position: absolute;
+    font-size: 18px;
+     font-weight: bold;
+    left: 65%;
+    top: 45%; 
+}
+
+.gra{
+    position: absolute;
+    left: 77%;
+    top: 45%; 
+}
+
+
+
+
+
+
+.pf1{
+    position: absolute; 
+    font-size: 18px;
+     font-weight: bold;
+    left: 5%;
+    top: 64%;
+}
+
+.pf{
+    position: absolute;
+    left: 15%;
+    top: 65%; 
+}
+
+.it1{
+    position: absolute; 
+    font-size: 18px;
+     font-weight: bold;
+    left: 36%;
+    top: 64%;
+}
+ 
+.it{
+    position: absolute;
+    left: 42%;
+    top: 65%; 
+}
+.gpf1{
+    position: absolute;
+    font-size: 18px;
+     font-weight: bold;
+    left: 69%;
+    top: 64%;
+}
+
+.gpf{
+    position: absolute;
+    left: 77%;
+    top: 65%; 
+
+ 
+}
+
+
+
+
+.table{
+    position: absolute;
+    top: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+.butt input[type="submit"]
+{
+        border-radius: 20px;
+        border: 1px solid #009478;
+        background: #009478;
+        color: #fff;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 12px 45px;
+        position: absolute;
+        top: 70%;
+         left: 81%;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        transition: transform 80ms ease-in;
+        cursor: pointer; 
+} 
+
+
+
+.butt input[type="submit"]:active {
+    transform:scale(0.95);
+}
+
+.butt input[type="submit"]:focus {
+   outline: none;
+}
+.butt input[type="submit"]:hover{
+    background-color: #00392e;
+    border-color: darkcyan; 
+}
+
+
+.ldpd{
+     position: absolute; 
+    font-size: 18px;
+     font-weight: bold;
+    left: 5%;
+    top: 85%;
+}
+
+.ldpdinput{
+     position: absolute;
+    font-size: 20px;
+    left: 15%;
+    top: 85%;
+}
+
+
+
+  
+
+
+
+

@@ -1,0 +1,28 @@
+body{
+    background-color: #20b7b3;
+}
+
+
+.heading{
+    position: absolute;
+    font-size: 80px;
+    left: 2%;
+    top: 15%;
+    color: #525252; 
+} 
+
+.table{
+    position: absolute;
+    top: 45%;
+    background-color: rgba(0, 0, 0, 0.69);
+    color: aliceblue;
+    border: none;
+}
+
+.image1{
+    position: absolute;
+    height: 45%;
+    width: 30%;
+    left: 70%;
+    
+}

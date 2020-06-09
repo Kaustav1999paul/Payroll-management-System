@@ -1,0 +1,202 @@
+*{
+    margin: 0px;
+    padding: 0px;    
+} 
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #20b7b3;
+    background-size: cover;
+}
+ 
+.heading{
+    top: 15%; 
+    left: 0.5%;
+    position: absolute;
+    outline: none;      
+} 
+
+.form{
+    width: 830px;
+    height: 500px;
+    background: rgba(0, 0, 0, 0.74);
+    color: #fff;
+    top: 47%;
+    left: 69%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 4%;
+    outline: none;
+}
+
+.form input[type="text"], input[type="email"], input[type="password"], input[type="number"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+::placeholder{
+    color: #ffffff;
+}
+
+.butt input[type="submit"]
+{
+        border-radius: 20px;
+        border: 1px solid #0c489a;
+        background: #0c489a;
+        color: #fff;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 12px 45px;
+        position: absolute;
+        top: 90%;
+        left: 65%;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        transition: transform 80ms ease-in;
+        cursor: pointer;
+     
+}
+
+
+
+.butt input[type="submit"]:active {
+    transform:scale(0.95);
+}
+
+.butt input[type="submit"]:focus {
+   outline: none;
+}
+
+
+
+
+.gen{
+    background: transparent;
+    color: #d0aeae;
+    height: 35px;
+    width: 80px;
+    left: 85%;
+    top: 15%;
+    position: absolute;
+    border-radius: 4px;
+    outline: none;
+}
+
+.photo{
+    left: 310px;
+    top: 409px;
+    position: absolute;
+    border-radius: 20px;
+    outline: none;
+    
+}
+
+.Degr{
+    font-size: 20;
+    position: absolute;
+    top: 85.5%;
+    left: 3%;
+}
+
+
+.deg{
+     background: transparent;
+    color: black;
+    height: 35px;
+    width: 100px;
+    left: 12%;
+    top: 85%;
+    position: absolute;
+    border-radius: 4px;
+    outline: none;
+}
+
+.Des{
+     font-size: 20;
+    position: absolute;
+    top: 85.5%;
+    left: 30%;
+}  
+
+.desig{
+     background: transparent;
+    color: black;
+    height: 35px;
+    width: 100px;
+    left: 45%;
+    top: 85%;
+    position: absolute;
+    border-radius: 4px;
+    outline: none;
+}
+
+.Dep{
+     font-size: 20;
+    position: absolute;
+    top: 85.5%;
+    left: 64%;
+}
+
+.dept{
+     background: transparent;
+    color: black;
+    height: 35px;
+    width: 100px;
+    left: 79%;
+    top: 85%;
+    position: absolute;
+    border-radius: 4px;
+    outline: none;
+}
+
+.logo{
+    height: 70px;
+    width: 100px;
+    top: 1.5%;
+    left: 1%;
+    position: absolute;
+}
+
+
+
+.forget{
+    position: absolute;
+    bottom: 14%;
+    left: 2%;
+    height: 120px;
+    width: 200;
+    border-radius: 20px;
+    background-color: rgba(5, 42, 252, 0.74);
+}
+
+.forget input[type="number"]{
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    width: 9rem;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+.forget input[type="number"]::placeholder{    
+    color: rgb(255, 255, 255);    
+}
+
+.note{
+    position: absolute;
+    bottom: 5%;
+    left: 10px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

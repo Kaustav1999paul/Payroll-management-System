@@ -1,0 +1,46 @@
+<html>
+<head><title>Leave</title>
+<link rel=stylesheet type="text/css" href="leave.css">
+    <link rel="shortcut icon" type="image/png" href="37310000-af21-4ccf-ba43-d277d7ac4788.jpg">
+</head>
+    <body>
+        <img src="lax.gif">
+        
+        <div class="logo">
+    <img src="37310000-af21-4ccf-ba43-d277d7ac4788.jpg" style="height: 100%; width: 100%; border-radius: 10px">
+    </div>
+        
+        <div class="head">
+        
+        <h1>Application for leave</h1>
+        
+        </div>
+        
+        <form action="leave.php" method="post">
+    <div class="leave_box">
+    
+        <label style="font-size: 20" class="Frome">From:</label>
+        <input type="date" name="start" class="from" required>
+        
+        <label style="font-size: 20" class="too">To:</label>
+        <input type="date" name="end" class="to" required>
+        
+      
+        
+        <label style="font-size: 20" class="days">Number of Days:</label>
+        <input type="number" min="0" name="num" class="number">
+        
+        <label class="reason">Reason:</label>
+        <textarea class="message" name="reason" placeholder="             
+            Type your reason here"></textarea>
+        
+        <div class="butt">
+   <input type="submit" name="submit" value="Submit">
+ </div>
+        
+        </div>
+    </form>
+    </body>
+
+
+</html>

@@ -1,0 +1,48 @@
+<html>
+<head><title>New Employee</title>
+<link rel="stylesheet" type="text/css" href="admin_style.css">
+    <link rel="shortcut icon" type="image/png" href="37310000-af21-4ccf-ba43-d277d7ac4788.jpg">
+</head>
+<body>
+    
+    <div class="logo">
+    <img src="37310000-af21-4ccf-ba43-d277d7ac4788.jpg" style="height: 100%; width: 100%; border-radius: 10px">
+    </div>
+<br>
+<h1 class="heading" style="font-size: 550%; color: rgba(44, 44, 44, 0.46)">Registration<br> Form</h1>
+
+<form action="admin_reg.php" method="post">
+<div class="form">
+<br>
+    <h1 style="background-color: rgba(0, 0, 0, 0.47);">&nbsp;&nbsp;Personal Information</h1><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="Firstname" placeholder="Enter First Name">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="Lastname" placeholder="Enter Last Name"><br><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="password" name="Pass" placeholder="Enter Password">
+    <select name="Gender" class="gen">
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+    <option value="Others">Others</option>
+    </select> 
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input width="23%" type="number" min="0" name="Age" placeholder="Age">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label style="font-size: 20">Date of birth:</label>
+    &nbsp;&nbsp;<input style="" type="date" name="Birthday" placeholder="Date of birth"><br><br>
+    
+    
+    
+    
+    <h1 style="background-color: rgba(0, 0, 0, 0.47);">&nbsp;&nbsp;Address</h1><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="" type="text" name="Address" placeholder="Enter Street / Locality">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="City" placeholder="Enter City">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="State" placeholder="Enter State"><br><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="" type="number" name="Pincode" placeholder="Enter Pincode">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" name="Email" placeholder="Enter Email">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="Mobile" placeholder="Enter Mobile No"><br><br>
+</div>
+ 
+
+<div class="butt">
+   <input type="submit" name="submit" value="Submit">
+ </div>
+</form>
+</body>
+</html>

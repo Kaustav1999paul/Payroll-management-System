@@ -1,0 +1,56 @@
+body{
+    background-color: #20b7b3;
+}
+
+
+.heading{
+    position: absolute;
+    font-size: 80px;
+    left: 2%;
+    top: 15%;
+    color: #525252; 
+} 
+
+.table{
+    position: absolute;
+    top: 45%;
+    background-color: rgba(0, 0, 0, 0.69);
+    color: aliceblue;
+    border: none;
+}
+
+.image1{
+    position: absolute;
+    height: 45%;
+    width: 30%;
+    left: 70%;
+    
+}
+
+.hand{
+    position: absolute;
+    top: 30rem;    
+    left: 30rem;
+}
+
+.hand input[type="email"]{
+    color: rgb(78, 78, 78);
+    background: white;
+    border: none;
+    text-align: center;
+    border-radius: 30px;
+    height: 50px;
+    width: 20rem;
+    outline: none;
+}
+
+.hand input[type="submit"]{
+    color: aliceblue;
+    background-color: darkgoldenrod;
+    border: none;
+    border-radius: 50px;
+    height: 5rem;
+    width: 5rem;
+    outline: none;
+
+}

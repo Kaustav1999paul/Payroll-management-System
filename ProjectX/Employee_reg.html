@@ -1,0 +1,87 @@
+<html>
+<head><title>New Employee</title>
+<link rel="stylesheet" href="emp_style.css">
+    <link rel="shortcut icon" type="image/png" href="37310000-af21-4ccf-ba43-d277d7ac4788.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+     
+    
+    
+    
+    <div class="logo">
+    <img src="37310000-af21-4ccf-ba43-d277d7ac4788.jpg" style="height: 100%; width: 100%; border-radius: 10px">
+    </div>
+<br>
+<h1 class="heading" style="font-size: 550%; color: rgba(44, 44, 44, 0.46)">Registration<br> Form</h1>
+
+<form action="reg.php" method="post">
+<div class="form">
+<br>
+    <h1 style="background-color: rgba(0, 0, 0, 0.47);">&nbsp;&nbsp;Personal Information</h1><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="Firstname" placeholder="Enter First Name">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="Lastname" placeholder="Enter Last Name">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="Emp_id" placeholder="Enter Employee ID"><br><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="password" name="Pass" placeholder="Enter Password">
+    <select name="Gender" class="gen">
+    <option value="Male">Male</option>
+    <option value="Femail">Female</option>
+    <option value="Others">Others</option>
+    </select> 
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input width="23%" type="number" min="0" name="Age" placeholder="Age">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label style="font-size: 20">Date of birth:</label>
+    &nbsp;&nbsp;<input style="" type="date" name="Birthday" placeholder="Date of birth"><br><br>
+    
+    
+    
+    
+    <h1 style="background-color: rgba(0, 0, 0, 0.47);">&nbsp;&nbsp;Address</h1><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="" type="text" name="Address" placeholder="Enter Street / Locality">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="City" placeholder="Enter City">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="State" placeholder="Enter State"><br><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="" type="number" name="Pincode" placeholder="Enter Pincode">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" name="Email" placeholder="Enter Email">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="Mobile" placeholder="Enter Mobile No"><br><br>
+    
+
+
+    
+    
+    
+    <h1 style="background-color: rgba(0, 0, 0, 0.47);">&nbsp;&nbsp;Job Specifications</h1><br>
+    <p1 class="Degr">Degree</p1>
+    <select name="Degree" class="deg">
+    <option value="Below 10th Std">Below 10th Std</option>
+    <option value="Graduate">Graduate</option>
+    <option value="Post-Graduate">Post-Graduate</option>
+    <option value="None">None</option>
+    </select>
+    <p1 class="Des">Designation</p1>
+    <select name="Designation" class="desig">
+        
+    <option value="A">Class A(CEO, Director, HR, Manager)</option>
+   
+    <option value="B">Class B(Administrator,Associate, Executive, Analyst, Engineer)</option>
+    
+    <option value="C">Class C(Secretary,Personal Assistant/Receptionist, Accountants/Clerks, Sales Person, Workers, Janitors)</option>
+    
+    </select>
+    <p1 class="Dep">Department</p1>
+    <select name="Department" class="dept">
+    <option value="IT">IT</option>
+    <option value="Marketing">Marketing</option>
+    <option value="Sales">Sales</option>
+    <option value="Others">Others</option>
+    </select>
+</div>
+ <div class="forget"><center><br><br>
+    <i class="fa fa-lock" style="font-size:24px"></i>&nbsp;&nbsp;&nbsp;<input required type="number" name="Security" maxlength="4" placeholder="Enter Security Pin">
+</center> </div> 
+<div class="butt">
+   <input type="submit" name="submit" value="Submit">
+ </div>
+</form>
+
+<div class="note"><p1>NOTE: Security pin will be used to confirm your identity in case you forgot password</p1></div>
+</body>
+</html>

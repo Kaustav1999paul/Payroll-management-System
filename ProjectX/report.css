@@ -1,0 +1,55 @@
+body{
+    background-color: #20b7b3;
+}
+
+
+.heading{
+    position: absolute;
+    font-size: 80px;
+    left: 2%;
+    top: 15%;
+    color: #525252; 
+} 
+
+.table{
+    position: absolute;
+    top: 45%;
+    background-color: rgba(0, 0, 0, 0.69);
+    color: aliceblue;
+    border: none;
+}
+
+.image1{
+    position: absolute;
+    height: 45%;
+    width: 30%;
+    left: 70%;
+    
+}
+
+.em{
+    position: absolute;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    top: 30rem;
+    left: 30rem;
+}
+
+.butt{
+    border-radius: 90px;
+    position: absolute;
+    top: 28rem;
+    left: 45rem;
+    height: 5rem;
+    width: 5rem;
+    border: none;
+    background-image: url("ssearch.gif");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}

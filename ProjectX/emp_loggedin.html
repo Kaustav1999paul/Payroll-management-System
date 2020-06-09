@@ -1,0 +1,83 @@
+<html>
+<head><title>Payroll Management</title>
+<link rel="stylesheet" href="emp_loggedin.css">
+    <link rel="shortcut icon" type="image/png" href="37310000-af21-4ccf-ba43-d277d7ac4788.jpg">
+</head>
+    <body>
+       <div class="logo">
+    <img src="37310000-af21-4ccf-ba43-d277d7ac4788.jpg" style="height: 100%; width: 100%; border-radius: 10px">
+    </div> 
+        
+        
+       <div id="img-box" class="full">
+           
+           
+           <div class="shadow1"></div>
+           <div class="shadow2"></div>
+       <img src="Untitled1.jpg" id="smallimg">
+       </div>
+        
+        
+    <div class="imageList">
+      <ul>
+           <li onclick="d()">Employee Report</li>
+           <li onclick="k()">Leave</li>
+           <li onclick="e()">Salary Report</li>
+           <li onclick="g()">Logout</li>
+      </ul>          
+    </div>
+        
+    <div class="btn-box" onclick="threeLines()">
+    <span id="btnIcon">&#9778;</span>
+    </div>
+        
+        
+    <script>
+    var smallImg = document.getElementById("smallimg");    
+    var imgBox = document.getElementById("img-box"); 
+    var menuIcon = document.getElementById("btnIcon");    
+   
+
+         function d(){
+        window.location.href="emp_reportE.php";
+    }   
+        
+         function k(){
+        window.location.href="leave.html";
+    }   
+        
+         function e(){
+        window.location.href="Emp_salary.php";
+    }   
+        
+         function g(){
+        window.location.href="login.html";
+    }     
+        
+        
+        
+        
+        
+        
+        function threeLines(){
+            if(imgBox.className == "small")
+            {
+                imgBox.className = "full";
+                menuIcon.innerHTML = "&#9778";
+            }
+            else
+            {
+                imgBox.className = "small";
+                menuIcon.innerHTML = "&#10006";
+            }
+        }
+        
+        
+    </script>
+     
+        
+    
+    
+    
+    </body>
+</html>
